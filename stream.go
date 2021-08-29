@@ -58,7 +58,6 @@ func RTSPWorker(name, url string, OnDemand bool) error {
 	broadCastEnable, broadCastURL := Config.bcConfig(name)
 	if broadCastEnable {
 		connRTMP, err = rtmp.DialTimeout(broadCastURL, 5*time.Second)
-		//conn, err := rtmp.Dial("rtmp://live-ber.twitch.tv/app/live_55956025_liaYwOlnCZaZDkvVmcwGsTmznQqfhk")
 		if err != nil {
 			return err
 		}
