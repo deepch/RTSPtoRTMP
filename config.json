@@ -1,0 +1,12 @@
+{
+  "streams": {
+    "H264_AAC": {
+      "on_demand": false,
+      "url": "YOU_RTSP_CAMERA_URL",
+      "broadcast": {
+        "enable": true,
+        "url": "rtmp://a.rtmp.youtube.com/live2/YOU_YOUTUBE_KEY"
+      }
+    }
+  }
+}
