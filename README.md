@@ -1,4 +1,4 @@
-# RTSPtoRMP
+# RTSPtoRTMP
 
 RTSP Stream to YouTube or Twitch
 
@@ -33,10 +33,10 @@ format:
   "streams": {
     "H264_AAC": {
       "on_demand": false,
-      "url": "rtsp://171.25.232.11/05dad5221e774c85abbde206385a38b4",
+      "url": "YOU_RTSP_CAMERA_URL",
       "broadcast": {
         "enable": true,
-        "url": "rtmp://a.rtmp.youtube.com/live2/{YOU_KEY}"
+        "url": "rtmp://a.rtmp.youtube.com/live2/YOU_YOUTUBE_KEY"
       }
     }
   }
